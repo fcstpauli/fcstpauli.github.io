@@ -2,26 +2,27 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'DejaVu Sans Mono for Powerline', monospace;
-    background-color: #151515;
+    font-family: 'Roboto', monospace;
+    background-color: #000000;
 }
 h1 {
 	font-size: 62px;
+    font-family: 'Roboto', monospace;
     color: #a0522d;
 }
 .col-md-3 {
-    background-color: #323232;
-    font-family: 'DejaVu Sans Mono for Powerline', monospace;
+    background-color: #151515;
+    font-family: 'Roboto', monospace;
     font-size: 16px;
     color: #4a0804;
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 15px;
 }
 
 .col-12 {
     padding: 0px;
     font-size: 26px;
-    font-family: 'DejaVu Sans Mono for Powerline', monospace;
+    font-family: 'Roboto', monospace;
 }
 .list-group-item {
     background-color: inherit;
@@ -54,12 +55,12 @@ li:before {
 .terminal-text {
     outline: none;
    border: none;
-   background-color: #151515;
+   background-color: #000000;
 }
 .terminal-text:focus {
     outline: none;
     border: none;
-    background-color: #151515;
+    background-color: #000000;
     box-shadow: none;
 }
 
